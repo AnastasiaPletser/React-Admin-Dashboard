@@ -7,11 +7,11 @@ import Nav from './Nav'
 export default function Header() {
   return (
     <header id="header" className="header fixed-top d-flex align-items-center"> 
-    {/* {logo) */} 
+    {/* {logo}  */}
     <Logo />
-    {/* (search bar} */}
+    {/* {search bar} */}
     <SearchBar /> 
-    {/* {nav) */}
+    {/* {nav} */}
     <Nav />
     </header>
   )

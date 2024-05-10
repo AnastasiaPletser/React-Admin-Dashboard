@@ -31,7 +31,7 @@ function BudgetChart() {
             max: 52000,
           },
           {
-            name: "Mapketing",
+            name: "Marketing",
             max: 25000,
           },
         ],

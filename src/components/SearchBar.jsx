@@ -16,7 +16,7 @@ placeholder="Search"
 title="Enter search keyword"
 />
 <button type="submit" title="Search">
- <i className="b1 bi-search"></i> 
+ <i className="bi bi-search" ></i> 
  </button>
 </form> 
 </div>

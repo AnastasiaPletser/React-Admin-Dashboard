@@ -16,7 +16,7 @@ function RecentActivityItem({ item }) {
             {item.highlight}
           </a>
           {item.content.slice(
-            item.content.indexof(item.highlight) + item.highlight.length,
+            item.content.indexOf(item.highlight) + item.highlight.length,
             -1
           )}
         </div>

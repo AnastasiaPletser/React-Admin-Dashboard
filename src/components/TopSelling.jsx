@@ -44,9 +44,8 @@ function TopSelling() {
           <tbody>
             {items &&
               items.length > 0 &&
-              items.map((item) => (
-                <TopSellingItem key={items._id} item={item} />
-              ))}
+              items.map(item => <TopSellingItem key={item._id} item={item} />
+              )}
           </tbody>
         </table>
       </div>

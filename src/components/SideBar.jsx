@@ -58,7 +58,7 @@ function SideBar() {
             data-bs-toggle="collapse"
             href="#"
           >
-            <i className="b1 bi-journal-text"></i>
+            <i className="bi bi-journal-text"></i>
             <span>Forms</span>
             <i className="bi bi-chevron-down ms-auto"></i>
           </a>
@@ -69,7 +69,7 @@ function SideBar() {
           >
             <li>
               <a href="#">
-                <i className="b1 bi-circle"></i>
+                <i className="bi bi-circle"></i>
                 <span>Application Form</span>
               </a>
             </li>
@@ -143,13 +143,13 @@ function SideBar() {
             </li>
             <li>
               <a href="#">
-                <i className="b1 bi-circle"></i>
+                <i className="bi bi-circle"></i>
                 <span>ApexCharts</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <i className="b1 bi-circle"></i>
+                <i className="bi bi-circle"></i>
                 <span>ECharts</span>
               </a>
             </li>
@@ -186,7 +186,7 @@ function SideBar() {
             </li>
             <li>
               <a href="#">
-                <i className="b1 bi-circle"></i>
+                <i className="bi bi-circle"></i>
                 <span>Boxicons</span>
               </a>
             </li>

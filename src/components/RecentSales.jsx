@@ -5,18 +5,18 @@ import RecentSalesTable from "./RecentSalesTable";
 
 function RecentSales() {
   const [items, setItems] = useState([]);
-  const [filter, setFilter] = useState("Today");
-  const handleFilterChange = (filter) => {
+  const [filter, setFilter] = useState('Today');
+  const handleFilterChange = filter => {
     setFilter(filter);
   };
 
   const fetchData = () => {
-    fetch("http://localhost:4000/recentsales")
-      .then((res) => res.json())
-      .then((data) => {
+    fetch('http://localhost:4000/recentsales')
+      .then(res => res.json())
+      .then(data => {
         setItems(data);
       })
-      .catch((e) => console.log(e.message));
+      .catch(e => console.log(e.message));
   };
 
   useEffect(() => {
@@ -28,7 +28,7 @@ function RecentSales() {
       <CardFilter filterChange={handleFilterChange} />
       <div className="card-body">
         <h5 className="card-title">
-          Recent Sales <span>| (filter)</span>
+          Recent Sales <span>| {filter}</span>
         </h5>
         <RecentSalesTable items={items} />
       </div>

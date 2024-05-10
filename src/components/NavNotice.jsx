@@ -35,7 +35,7 @@ function NavNotice() {
         </li>
 
         <li className="notification-item">
-          <i className-="bi bi-x-circle text-danger"></i>
+          <i className="bi bi-x-circle text-danger"></i>
           <div>
             <h4>Atque rerum nesciunt</h4>
             <p>Quae dolorem earum veritatis oditseno</p>

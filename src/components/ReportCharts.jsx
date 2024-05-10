@@ -50,27 +50,29 @@ function ReportCharts() {
         categories: [
           "2018-09-19T00:00:00.000Z",
           "2018-09-19T01:30:00.000Z",
-          "2018-09-19T02:00:00.000Z",
-          "2018-09-19T03:00:00.000Z",
-          "2018-09-19T04:00:00.000Z",
-          "2018-09-19T05:00:00.000Z",
-          "2018-09-19T06:00:00.000Z",
+          "2018-09-19T02:30:00.000Z",
+          "2018-09-19T03:30:00.000Z",
+          "2018-09-19T04:30:00.000Z",
+          "2018-09-19T05:30:00.000Z",
+          "2018-09-19T06:30:00.000Z",
         ],
       },
       tooltip: {
         x: {
-          format: 'dd/MM/yy HH:mm',
+          format: "dd/MM/yy HH:mm",
         },
       },
     },
   });
 
-  return ( <Chart
-  options={data.options}
-  series={data.series}
-  type={data.options.chart.type}
-  height={data.options.chart.height}
-  />);
+  return (
+    <Chart
+      options={data.options}
+      series={data.series}
+      type={data.options.chart.type}
+      height={data.options.chart.height}
+    />
+  );
 }
 
 export default ReportCharts;

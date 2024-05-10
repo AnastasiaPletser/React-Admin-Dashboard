@@ -1,9 +1,9 @@
 import React from "react";
 
 function RecentSalesTable({ items }) {
-  const handleStatus = (status) => {
+  const handleStatus = status => {
     // switch (status) {
-    //   case "Approve":
+    //   case "Approved":
     //     return "success";
     //     break;
     //   case "Pending":
@@ -16,7 +16,7 @@ function RecentSalesTable({ items }) {
     //     return "success";
     // }
     switch (status) {
-      case "Approve":
+      case "Approved":
         return "success";
       case "Pending":
         return "warning";
@@ -41,7 +41,7 @@ function RecentSalesTable({ items }) {
       <tbody>
         {items &&
           items.length > 0 &&
-          items.map((item) => (
+          items.map(item => (
             <tr key={item._id}>
               <th scope="row">
                 <a href="#">{item.number}</a>
